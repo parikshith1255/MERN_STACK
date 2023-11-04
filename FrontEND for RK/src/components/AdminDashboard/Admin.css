@@ -1,0 +1,133 @@
+.Dashboard-Header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px 4px 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .Dashboard-footer{
+    height: 50px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+border-top: 1px solid rgba(0, 0, 0, 0.15);
+
+  }
+
+  
+
+
+.SideMenuAndPageContent{
+
+    display: flex;
+    flex: 1;
+     
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-Color:'red' ;
+}
+
+.grid-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+ display:flex ;
+ flex: 1;
+ flex-direction:  row;
+ grid-template-columns: 1fr 1fr; 
+ gap: 1px;  
+ background-color: black;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;  
+  max-width: 250px;
+ }
+
+ .containe2 {
+    display: flex;
+    
+    justify-content: flex-start;
+    background-color: skyblue;
+ }
+
+ 
+ 
+  .Side-Bar{
+      display: flex;
+      flex-direction: column;
+    height: 100%;
+     width: 180px;
+  }
+
+
+  .Side-Bar.collapsed {
+    width: 64px; /* Set the desired collapsed width */
+    /* You can also add any other styles you want for the collapsed state */
+  }
+  
+  /* You may need to transition the width to achieve a smooth animation */
+  .Side-Bar {
+    transition: width 0.3s ease-in-out;
+  }
+
+
+  .Page-Content{
+     padding-left: 1;
+      
+      
+  }
+
+  .table012{
+   padding-left: 3%;  
+   padding-bottom: 0%;  
+    
+  }
+
+  .custom-statistic .ant-statistic-title {
+     font-size: large; /* Set your desired color here */
+     color: black;
+     font-weight: bold;
+  }
+
+  .custom-statistic{
+    margin-top: 10px;
+  }
+
+  .container{
+    background-color: greenyellow;
+    /* Your container styles here */
+  }
+  
+ 
+  
+  .profile-container,
+  .container-editprofile {
+    /* Styling for the profile and edit profile containers */
+    border: 1px solid black;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px #4747470b;
+  }
+  
+  .rectangular-container {
+    /* Styling for the rectangular container below the profile and edit profile containers */
+    border: 1px solid black;
+    padding: 10px;
+    width: auto;
+    margin-top: 20px; /* Space between the profile and edit profile containers and the rectangular container */
+  }
+  
+
+
+  .content-dashboard {
+     
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+      
+  }
